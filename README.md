@@ -1,5 +1,7 @@
 # README
 
+[![Build Status](https://travis-ci.org/rcambien/riverline-spamassassin.png?branch=master)](https://travis-ci.org/rcambien/riverline-spamassassin)
+
 ## What is Riverline\SpamAssassin
 
 ``Riverline\SpamAssassin`` is a simple lib to get SpamAssassin score and report for an Email.
