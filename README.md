@@ -30,3 +30,6 @@ echo $spamAssassin->getScore($rawEmail);
 // Optionaly get the full report
 echo $spamAssasing->getReport();
 ```
+=======
+riverline-spamassassin
+======================
