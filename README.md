@@ -30,6 +30,6 @@ use Riverline\SpamAssassin\PostmarkWebservice
 $spamAssassin = new PostmarkWebservice();
 echo $spamAssassin->getScore($rawEmail);
 
-// Optionaly get the full report
-echo $spamAssasing->getReport();
+// Optionally get the full report
+echo $spamAssassin->getReport();
 ```
