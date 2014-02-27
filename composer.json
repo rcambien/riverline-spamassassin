@@ -1,0 +1,26 @@
+{
+    "name":"riverline/spamassassin",
+    "description":"Library to request SpamAssassin report ",
+    "keywords":["spamassassin"],
+    "type":"library",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Romain Cambien",
+            "email":"romain@riverline.fr"
+        },
+        {
+            "name":"Riverline",
+            "homepage":"http://www.riverline.fr"
+        }
+    ],
+    "require":{
+        "php":           ">=5.3",
+        "guzzle/guzzle": "3.*"
+    },
+    "autoload":{
+        "psr-0":{
+            "Riverline\\SpamAssassin": "src/"
+        }
+    }
+}
