@@ -16,7 +16,8 @@
 ## Usage
 
 Currently, only one provider is available : ``PostmarkWebservice``.
-It use the Postmark free Spamcheck webservice aivalable here :
+
+It use the Postmark free Spamcheck webservice available here :
 http://spamcheck.postmarkapp.com/doc
 
 ```php
@@ -30,6 +31,3 @@ echo $spamAssassin->getScore($rawEmail);
 // Optionaly get the full report
 echo $spamAssasing->getReport();
 ```
-=======
-riverline-spamassassin
-======================
