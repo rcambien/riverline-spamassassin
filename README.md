@@ -1,6 +1,7 @@
 # README
 
 [![Build Status](https://travis-ci.org/rcambien/riverline-spamassassin.png?branch=master)](https://travis-ci.org/rcambien/riverline-spamassassin)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/82d93761-63ed-487a-8123-a617205bd5f2/mini.png)](https://insight.sensiolabs.com/projects/82d93761-63ed-487a-8123-a617205bd5f2)
 
 ## What is Riverline\SpamAssassin
 
@@ -13,7 +14,7 @@
 
 ## Installation
 
-``Riverline\SpamAssassin`` is compatible with composer and any prs-0 autoloader
+``Riverline\SpamAssassin`` is compatible with [composer](https://packagist.org/packages/riverline/spamassassin) and any prs-0 autoloader
 
 ## Usage
 
