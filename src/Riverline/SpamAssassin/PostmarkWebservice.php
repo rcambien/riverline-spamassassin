@@ -61,6 +61,8 @@ class PostmarkWebservice implements SpamAssassinInterface
 
         if (!$response['success']) {
             throw new \RuntimeException($response['message']);
+        } elseif (!isset($response['score'])) {
+            throw new \RuntimeException('Missing score');
         } else {
             $this->report = $response['report'];
             return $response['score'];
